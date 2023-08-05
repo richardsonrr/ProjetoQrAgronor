@@ -180,12 +180,8 @@ header {
   overflow: hidden;
 }
 .video {
-  position: relative;
-  padding-top: 3rem;
-  width: 100%;
-  height: 100vw;
-  overflow: hidden;
-  padding-bottom: 2rem;
+    padding-top:3rem;
+    text-align: center
 }
 iframe {
   max-width: 950px;
@@ -197,6 +193,16 @@ iframe {
 .content h1 {
   font-family: Roboto;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+
+.mExecuting {
+    width: 100vw;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content:  center;
+    border-radius: 20px;
+    padding-top: 20rem;
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -221,4 +227,7 @@ iframe {
     border-radius: 87.33px;
     border: 2px solid gold;
   }
+  
+
+
 }
